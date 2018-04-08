@@ -1,0 +1,21 @@
+{
+  "name": "wpy-redux",
+  "version": "1.0.1",
+  "description": "微信小程序连接redux，基于wepy-redux",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "wpy-redux",
+    "wpy",
+    "redux",
+    "connect"
+  ],
+  "author": "tzuser",
+  "license": "MIT",
+  "peerDependencies": {
+    "redux": "^2.0.0 || ^3.0.0"
+  },
+  "_from": "wpy-redux@1.0.0"
+}
