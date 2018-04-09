@@ -1,6 +1,6 @@
 {
   "name": "wpy-redux",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "微信小程序连接redux，基于wepy-redux",
   "main": "lib/index.js",
   "scripts": {

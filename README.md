@@ -64,7 +64,7 @@ npm install wpy-redux --save
 ```js
 // app.wpy
 import { createStore,applyMiddleware } from 'redux'
-import { setStore } from 'wepy-redux'
+import { setStore } from 'wpy-redux'
 import rootReducer from './reducers'
 //支持action内dispatch
 import thunk from 'redux-thunk'
@@ -77,7 +77,7 @@ setStore(store)
 2. 得到 store
 
 ```js
-import { getStore } from 'wepy-redux'
+import { getStore } from 'wpy-redux'
 
 const store = getStore()
 // 可以直接使用 store 实例了
@@ -91,7 +91,7 @@ const state = store.getState()
 
 ```js
 // ...
-  import { connect } from 'wepy-redux'
+  import { connect } from 'wpy-redux'
    const mapStateToProps=(state,props)=>({
     num:state.counter.num,
     inc:'inc'
